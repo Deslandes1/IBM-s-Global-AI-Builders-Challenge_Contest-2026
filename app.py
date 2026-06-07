@@ -212,12 +212,12 @@ Career Advice:"""
 # ================== TABS ==================
 tab1, tab2 = st.tabs([texts["video_tab"], texts["ai_tab"]])
 
-# --- Tab 1: Video Introduction (replace with your narrated video link) ---
+# --- Tab 1: Video Introduction (UPDATED WITH YOUR LINK) ---
 with tab1:
     st.markdown(f"### {texts['video_title']}")
     st.markdown(texts['video_desc'])
-    # Replace this with your actual narrated video link (use dl=1 for Dropbox)
-    video_link = "https://www.dropbox.com/scl/fi/example_pathfinder.mp4?dl=1"
+    # Your narrated Pathfinder AI video link (using dl=1 for direct streaming)
+    video_link = "https://www.dropbox.com/scl/fi/w5c4hxj0gldttd7ks3vcq/Pathfinder.mp4?rlkey=bqx234mre5bj30fwydruu4pm6&st=q3qrenrn&dl=1"
     st.video(video_link)
     st.caption("If the video does not play, click the three dots → Download to save it locally.")
 
